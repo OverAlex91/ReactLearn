@@ -1,0 +1,32 @@
+.cityHeader{
+    width: 100%;
+    height: 300px;
+    background: url('./header-bg.jpg') center no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-bottom: 3px dashed red;
+}
+
+.cityHeader_atributes{
+    display: flex;
+    justify-content:space-between;
+    padding: 40px;
+}
+
+.first_img img{
+    max-width: 180px;
+    max-height: 120px;
+}
+
+.second_img img{
+    max-width: 180px;
+    max-height: 120px;
+}
+
+.cityHeader_atributes p{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    text-shadow: 2px 4px 2px rgba(0,0,0,0.3);
+}
+
